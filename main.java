@@ -7,7 +7,7 @@ class Main {
         System.out.println(mapping(s1, s2));
     }
 
-    public static boolean mapping(String s1, String s2){
+    public static boolean mapping(String s1, String s2) {
         if (s1.length() != s2.length()) {
             return false;
         }
@@ -23,7 +23,7 @@ class Main {
                 map1.put(s1.charAt(i), s2.charAt(i));
             }
         }
-        
+
         return true;
     }
 }
